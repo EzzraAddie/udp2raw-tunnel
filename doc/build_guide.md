@@ -34,6 +34,7 @@ sudo apt-get install build-essential
 run on redhat/centos:
 ```
 sudo yum groupinstall 'Development Tools'
+sudo yum install glibc-static libstdc++-static
 ```
 
 run 'make'，compilation done. the udp2raw file is the just compiled binary
